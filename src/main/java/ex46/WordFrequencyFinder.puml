@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class WordFrequencyFinder
+{
+    + static void main(String[] args) throws FileNotFoundException
+    + static List<String> parse_file(File file) throws FileNotFoundException
+    + static void count_frequency(List<String> list)
+    + static HashMap<String, Integer> sortByValue(Map<String, Integer> old_list)
+}
+
+@enduml

@@ -1,0 +1,22 @@
+prompt to get output file name
+read file name into string with directory
+if last 4 char not .txt
+    add .txt to directory
+create new file
+
+initialize list of data
+scan file into list
+    open file to read
+    while file has next line
+        add line to list
+
+make a new list
+iterate through original list
+    add to new list line with utilize replaced by use
+
+write into output file
+    open file
+    open print writer
+    iterate through new list
+        print list content into file
+    close print witer

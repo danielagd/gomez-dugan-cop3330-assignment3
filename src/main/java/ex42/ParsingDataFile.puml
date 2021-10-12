@@ -1,0 +1,9 @@
+@startuml
+
+class ParsingDataFile{
+    + static void main(String[] agrs) throws IOException
+    + static List<String> scanFile(File file) throws FileNotFoundException
+    + static void print_table(List<String[]> data) throws IOException
+}
+
+@enduml

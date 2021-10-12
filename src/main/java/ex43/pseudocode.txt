@@ -1,0 +1,28 @@
+prompt site name
+read in site name into string
+prompt author
+read in author into string
+prompt javascript file option
+read in javascript file option into string
+prompt css option
+read in css option into string
+
+make website directory
+make site name directory
+prompt site name directory got created
+make index.html file
+    create file
+    prompt it got create
+write into index.html file
+    open file with print writer
+    print open head tag
+    print title tag
+    print meta tag
+    print close head tag
+    close print writer file
+if js yes or y
+    make js directory
+    prompt it got created
+if css yes or y
+    make css directory
+    prompt it got created

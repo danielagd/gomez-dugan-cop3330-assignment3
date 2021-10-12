@@ -1,0 +1,36 @@
+read in file into a list of products
+    open json file
+    initialize list of products
+    get JsonElement
+    make into JsonObject
+    make into JsonArray
+    for each product in array
+        create product into JsonObject
+        get name
+        get price
+        get quantity
+        make it into a Product object
+        add product object into list of products
+prompt question
+search for product in list
+    if in list
+        return true
+    else
+        return false
+while product name is not in list
+    prompt error
+    prompt question
+    read in new name
+
+initialize name to product name
+initialize price
+initialize quantity
+
+for each product in list
+    if name matches object in list
+        set price equal to object price
+        set quantity equal to object quantity
+        end loop
+
+initialize prompt string to desired output
+print prompt

@@ -1,0 +1,13 @@
+open file to scan
+initialize list of string array
+
+scan file into list
+    create list of string array
+    while file has next line
+        read in string
+        split string into array
+        add array to list
+print data into output file
+    print columns names
+    print lines
+    print data into columns

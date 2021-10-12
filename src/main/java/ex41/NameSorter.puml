@@ -1,0 +1,8 @@
+@startuml
+
+class NameSorter{
+    + static void main(String[] args) throws IOException
+    + static List<String> scanFile(File file) throws FileNotFoundException
+    + static void write_into_file(List<String> names) throws IOException
+}
+@enduml

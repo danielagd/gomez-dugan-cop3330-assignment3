@@ -1,0 +1,24 @@
+program start
+
+open file to scan
+initialize variable names
+scan file into names
+    create list of String
+    while file has next line
+        read in string
+        add string to list
+
+sort names
+
+open file to write
+
+create print function
+    open print writer
+
+    print total number of names
+    print line
+    print names
+
+    close output file
+
+program end

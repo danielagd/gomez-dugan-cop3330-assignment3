@@ -1,0 +1,11 @@
+@startuml
+
+class WordFinder {
+    + static void main(String[] args) throws IOException
+    + static List<String> replaceWord(List<String> list)
+    + static String create_file() throws IOException
+    + static List<String> scanFile(File file) throws FileNotFoundException
+    + static void write_into_file(String file, List<String> list) throws IOException
+}
+
+@enduml

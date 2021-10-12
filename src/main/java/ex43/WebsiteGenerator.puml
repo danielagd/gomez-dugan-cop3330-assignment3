@@ -1,0 +1,11 @@
+@startuml
+
+class WebsiteGenerator {
+    + static void main(String[] args) throws IOException
+    + static String create_files(String site_name, String author, String js, String css) throws IOException
+    + static String make_file(String directory) throws IOException
+    + static void write_into_html(String file, String site_name, String author) throws IOException
+}
+
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+
+class ProductSearch {
+    + static void main(String[] args) throws FileNotFoundException
+    + static List<Product> get_product(String file_dir)
+    + static String search_for_products(List<Product> list)
+    + static boolean search(List<Product> list, String product_name)
+}
+
+class Product {
+    - String name
+    - double price
+    - int quantity
+}
+
+ProductSearch <|--- Product
+@enduml

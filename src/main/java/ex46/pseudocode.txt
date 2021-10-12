@@ -1,0 +1,29 @@
+open input file
+create list of string
+
+parse through file
+    while file has next line
+        add line to list
+
+count frequency
+    initialize treemap list of word freq
+    initialize treemap list of word freq for when sorted
+    make scanned list into an array
+    iterate through array
+        if word freq list has word
+            increase freq int of word
+        else
+            add word to list
+    sort list to descending order of freq
+        make list into a linked list
+        sort using collections
+            override compare
+        create temp linkedHashMap
+        iterate through linked list
+            add values into linkedHashMap
+    set treemap list of word freq for when sorted to new sorted list
+    iterate through new list
+        print out word
+        iterate from 0 to freq
+            print out * for each iteration
+        print new line
