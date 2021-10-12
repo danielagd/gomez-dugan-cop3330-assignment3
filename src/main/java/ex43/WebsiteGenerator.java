@@ -65,11 +65,13 @@ public class WebsiteGenerator {
     public static void write_into_html(String file, String site_name, String author) throws IOException {
         PrintWriter print_line = new PrintWriter(file);
 
+        print_line.println("<!DOCTYPE html>");
+        print_line.println("<html>");
         print_line.println("<head>");
         print_line.println("<title>"+site_name+"</title>");
         print_line.println("<meta name = \"author\" content = \"" + author + "\">");
         print_line.println("</head>");
-
+        print_line.println("</html>");
         print_line.close();
     }
 }
